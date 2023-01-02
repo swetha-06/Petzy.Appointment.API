@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzy.Appointment.API", "Petzy.Appointment.API.csproj", "{09F6F3A2-1182-470F-91FA-14B2AB9C93CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Petzy Appointment API Layer", "Petzy Appointment API Layer", "{839E98C0-8B45-4432-8BAE-BC97D7115BDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Petzy Appointment Data Layer", "Petzy Appointment Data Layer", "{B5BA8AD0-4529-4218-947C-5A5B0D3C13D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzy.Appointment.DataAccess", "..\Petzy.Appointment.DataAccess\Petzy.Appointment.DataAccess.csproj", "{995CB959-75BB-458F-AD54-5A80E814EBEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Petzy Appointment Domain Layer", "Petzy Appointment Domain Layer", "{84B3D71A-66C2-418E-9898-34FCB842C8D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzy.Appointment.Domain-", "..\Petzy.Appointment.Domain-\Petzy.Appointment.Domain-.csproj", "{5202226C-E82D-40D4-824F-BF7D4879CC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Petzy.TestCase", "..\Petzy.TestCase\Petzy.TestCase.csproj", "{EFC03368-B40F-4E4B-A728-0B7849EF4E00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09F6F3A2-1182-470F-91FA-14B2AB9C93CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F6F3A2-1182-470F-91FA-14B2AB9C93CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F6F3A2-1182-470F-91FA-14B2AB9C93CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F6F3A2-1182-470F-91FA-14B2AB9C93CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{995CB959-75BB-458F-AD54-5A80E814EBEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{995CB959-75BB-458F-AD54-5A80E814EBEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{995CB959-75BB-458F-AD54-5A80E814EBEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{995CB959-75BB-458F-AD54-5A80E814EBEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5202226C-E82D-40D4-824F-BF7D4879CC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5202226C-E82D-40D4-824F-BF7D4879CC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5202226C-E82D-40D4-824F-BF7D4879CC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5202226C-E82D-40D4-824F-BF7D4879CC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC03368-B40F-4E4B-A728-0B7849EF4E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC03368-B40F-4E4B-A728-0B7849EF4E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC03368-B40F-4E4B-A728-0B7849EF4E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC03368-B40F-4E4B-A728-0B7849EF4E00}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{09F6F3A2-1182-470F-91FA-14B2AB9C93CB} = {839E98C0-8B45-4432-8BAE-BC97D7115BDB}
+		{995CB959-75BB-458F-AD54-5A80E814EBEF} = {B5BA8AD0-4529-4218-947C-5A5B0D3C13D1}
+		{5202226C-E82D-40D4-824F-BF7D4879CC93} = {84B3D71A-66C2-418E-9898-34FCB842C8D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F61D2C12-C5D8-434D-818D-BB4D0FE4D6CD}
+	EndGlobalSection
+EndGlobal
